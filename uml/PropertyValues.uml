@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.PropertyValues</OriginalElement>
+  <nodes>
+    <node x="579.0" y="415.0">org.springframework.web.filter.GenericFilterBean.FilterConfigPropertyValues</node>
+    <node x="274.4166666666667" y="83.0">org.springframework.beans.BeanMetadataElement</node>
+    <node x="514.4166666666667" y="0.0">org.springframework.core.AttributeAccessor</node>
+    <node x="487.4166666666667" y="83.0">org.springframework.core.AttributeAccessorSupport</node>
+    <node x="354.1666666666667" y="166.0">org.springframework.beans.BeanMetadataAttributeAccessor</node>
+    <node x="329.0" y="415.0">org.springframework.web.servlet.HttpServletBean.ServletConfigPropertyValues</node>
+    <node x="414.1666666666667" y="249.0">org.springframework.beans.PropertyValue</node>
+    <node x="0.0" y="415.0">org.springframework.web.bind.ServletRequestParameterPropertyValues</node>
+    <node x="253.47916666666669" y="332.0">org.springframework.beans.MutablePropertyValues</node>
+    <node x="252.16666666666669" y="249.0">org.springframework.beans.PropertyValues</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.servlet.HttpServletBean.ServletConfigPropertyValues" target="org.springframework.beans.PropertyValue">
+      <point x="57.5" y="-16.5" />
+      <point x="501.5" y="395.0" />
+      <point x="499.1666666666667" y="395.0" />
+      <point x="17.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.beans.BeanMetadataElement">
+      <point x="-64.0" y="-16.5" />
+      <point x="418.1666666666667" y="141.0" />
+      <point x="370.9166666666667" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean.FilterConfigPropertyValues" target="org.springframework.beans.PropertyValue">
+      <point x="54.24999999999997" y="-16.5" />
+      <point x="741.75" y="312.0" />
+      <point x="533.1666666666667" y="312.0" />
+      <point x="51.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.web.servlet.HttpServletBean.ServletConfigPropertyValues" target="org.springframework.beans.MutablePropertyValues">
+      <point x="-57.5" y="-16.5" />
+      <point x="386.5" y="395.0" />
+      <point x="351.9791666666667" y="395.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.beans.BeanMetadataAttributeAccessor" target="org.springframework.core.AttributeAccessorSupport">
+      <point x="64.0" y="-16.5" />
+      <point x="546.1666666666667" y="141.0" />
+      <point x="593.4166666666667" y="141.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.beans.MutablePropertyValues" target="org.springframework.beans.PropertyValues">
+      <point x="-65.66666666666669" y="-16.5" />
+      <point x="286.3125" y="312.0" />
+      <point x="323.1666666666667" y="312.0" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.beans.PropertyValue" target="org.springframework.beans.BeanMetadataAttributeAccessor">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.web.bind.ServletRequestParameterPropertyValues" target="org.springframework.beans.MutablePropertyValues">
+      <point x="0.0" y="-16.5" />
+      <point x="154.5" y="395.0" />
+      <point x="286.3125" y="395.0" />
+      <point x="-65.66666666666669" y="16.5" />
+    </edge>
+    <edge source="org.springframework.web.filter.GenericFilterBean.FilterConfigPropertyValues" target="org.springframework.beans.MutablePropertyValues">
+      <point x="-54.25" y="-16.5" />
+      <point x="633.25" y="385.0" />
+      <point x="417.64583333333337" y="385.0" />
+      <point x="65.66666666666669" y="16.5" />
+    </edge>
+    <edge source="org.springframework.beans.MutablePropertyValues" target="org.springframework.beans.PropertyValue">
+      <point x="0.0" y="-16.5" />
+      <point x="351.9791666666667" y="302.0" />
+      <point x="431.1666666666667" y="302.0" />
+      <point x="-51.0" y="16.5" />
+    </edge>
+    <edge source="org.springframework.core.AttributeAccessorSupport" target="org.springframework.core.AttributeAccessor">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="398.0" y="239.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

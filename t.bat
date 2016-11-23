@@ -1,0 +1,1 @@
+./gradlew cleanIdea :spring-oxm:compileTestJava
